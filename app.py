@@ -12,7 +12,7 @@ st.title("Alzheimer’s Risk Predictor")
 age = st.slider("Age", 60, 89, 75)
 sleep_hours = st.slider("Average Sleep Hours", 2.0, 10.0, 6.5, format="%.1f")
 bp_systolic = st.slider("Systolic Blood Pressure", 90.0, 180.0, 120.0, format="%.1f")
-cholesterol = st.slider("Cholesterol Level", 120.0, 300.0, 180.0, format="%.1f")
+cholesterol = 300.00
 
 depression = st.selectbox("Depression Diagnosis", ["No", "Yes"])
 cognitive_decline = st.selectbox("Cognitive Decline Noted?", ["No", "Yes"])
